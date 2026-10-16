@@ -3,9 +3,9 @@ package com.driver;
 public class RWOnly {
     private String name;
 
-    public String getter(String name)
+    public String getter()
     {
-        return name;
+        return this.name;
     }
 
     public String setter(String name)
